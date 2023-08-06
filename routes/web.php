@@ -15,9 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
  Route::get('/', [MainController::class, 'index']);
+
+ Route::post('/', [MainController::class, 'form'])->name('form');
 
