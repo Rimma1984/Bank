@@ -19,6 +19,11 @@
 }
 .blockquote {
     display: block;
-    
+}
+
+.notification {
+   display: flex;
+   justify-content: center;
+
 }
 
